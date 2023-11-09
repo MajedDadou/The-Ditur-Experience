@@ -16,7 +16,7 @@ window.addEventListener('scroll', function () {
 });
 
 //Logo transition
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     var logo = document.getElementById('logostart');
     logo.classList.add('logotransform');
 });
