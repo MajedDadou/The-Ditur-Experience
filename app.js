@@ -14,3 +14,8 @@ window.addEventListener('scroll', function () {
 
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var logo = document.getElementById('logostart');
+    logo.classList.add('logotransform');
+});
