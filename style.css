@@ -205,7 +205,10 @@ video{
     color: rgba(92, 92, 92, 1);
     padding: 2%;
     border: solid 1px rgba(227, 227, 227, 1);
-    
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*Header logo hvid*/
 header {
