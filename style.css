@@ -43,9 +43,7 @@ html {
 
 
 }
-.content{
-    
-}
+
 
 .navigation li{
 
@@ -64,13 +62,6 @@ html {
 
 
 
-.navigation li:hover{
-	/* padding-left: 24px;
-	font-size: 100%;
-	line-height: 37px !important; */
-	
-}
-
 
 
 .navigation li.light-menu{
@@ -82,10 +73,7 @@ html {
 	border-bottom: 2px solid rgb(255, 255, 255) !important;
 
 }
-.navigation li.active:hover{
 
-
-}
 .navigation .noborder{
 	border: none !important;
 	padding-left: 27px;
