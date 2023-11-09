@@ -58,6 +58,22 @@ html {
     background-image: url('images/dissing\ ocean.png');
 }
 
+/*Tekst*/
+p{
+    font-size: 30px;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+/*Billeder og tekst i midten*/
+.midt{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 /*Header logo hvid*/
 header{
     background-color: black;
@@ -75,4 +91,15 @@ header{
 .logotransform{
     transform: scale(1.5);
 }
+
+/*Tidslinje Dissing Watches*/
+.tidslinje{
+    background-color: black;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 10) 50%, transparent);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*Intro*/
+
 
