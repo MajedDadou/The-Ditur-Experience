@@ -18,13 +18,18 @@ html {
 
 }
 
+
 .slide {
+
     height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     background-color: black;
+
+
+
 }
 
 .navigation {
@@ -200,6 +205,10 @@ video {
     margin-left: auto;
     margin-right: auto;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of f68fc74 (prøve at aktiverer knap)
 /*Header logo hvid*/
 header {
     background-color: black;
@@ -208,6 +217,7 @@ header {
     overflow: hidden;
     height: 100vh;
 }
+
 #logostart {
     margin-left: auto;
     margin-right: auto;
@@ -216,6 +226,7 @@ header {
     transition: transform 2s ease-in-out;
 
 }
+
 .logotransform {
     transform: scale(1.5);
 }
