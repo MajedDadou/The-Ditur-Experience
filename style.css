@@ -59,14 +59,41 @@ html {
 }
 
 /*Tekst*/
+h1{
+    font-family: poller one;
+    color: white;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+h2{
+    font-family: Yeseva One;
+    color: white;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+}
 p{
     font-size: 25px;
     color: white;
     padding-left: 10%;
     padding-right: 10%;
     font-family: Inter;
-    line-height: 200%;
+    line-height: 220%;
+    padding-top: 2%;
 }
+
+/*Tekst citater*/
+.citat{
+    font-size: 25px;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Inter;
+    line-height: 150%;
+    text-align: center;
+    text-transform: italic;
+}
+
 /*Billeder og tekst i midten*/
 .midt{
     margin-left: auto;
@@ -76,6 +103,11 @@ p{
     justify-content: center;
     text-align: center;
     padding-bottom: 3%;
+}
+
+/*Runde billeder*/
+.borderimg{
+    border-radius: 50%;
 }
 
 /*Video*/
@@ -88,6 +120,14 @@ video{
 }
 .videosection{
     background-color: black;
+}
+/*Knap til at vise video*/
+.fremvideo{
+    background-color: rgba(227, 227, 227, 1);
+    color: rgba(92, 92, 92, 1);
+    padding: 2%;
+    border: solid 1px rgba(227, 227, 227, 1);
+    
 }
 /*Header logo hvid*/
 header{
@@ -117,6 +157,14 @@ header{
     background-attachment: fixed;
     height: 100vh;
 }
-/*Intro*/
+/*Interview section*/
+.tokoloner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+}
 
 
