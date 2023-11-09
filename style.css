@@ -14,11 +14,8 @@ html {
     background-repeat: no-repeat;
     background-size: contain;
     background-color: black;
-<<<<<<< Updated upstream
 
 
-=======
->>>>>>> Stashed changes
 }
 
 .slide {
@@ -31,7 +28,6 @@ html {
 }
 
 .navigation {
-<<<<<<< Updated upstream
     /* display: none; */
     position: fixed;
     z-index: 999;
@@ -49,23 +45,6 @@ html {
     color: #A1A1A1 !important;
     display: block;
     padding: 0 10px;
-=======
-	/* display: none; */
-	position: fixed;
-	z-index: 999;
-	top: 50%;
-	margin-top: -315px;
-	text-align: center;
-}
-/*.content{
-    
-}*/
-
-.navigation li{
-	color:#A1A1A1 !important;
-	display:block;
-	padding: 0 10px;
->>>>>>> Stashed changes
     font-family: poller one;
     line-height: 67px;
     font-weight: 900;
@@ -76,7 +55,6 @@ html {
     transition: all .2s ease-in-out;
 }
 
-<<<<<<< Updated upstream
 
 
 
@@ -94,31 +72,6 @@ html {
 .navigation .noborder {
     border: none !important;
     padding-left: 27px;
-=======
-/*.navigation li:hover{
-	padding-left: 24px;
-	font-size: 100%;
-	line-height: 37px !important;
-}*/
-
-.navigation li.light-menu{
-	border-bottom: 2px solid rgba(255, 255, 255, 0.192) !important
-}
-
-
-.navigation li.light-menu:hover{
-	border-bottom: 2px solid rgb(255, 255, 255) !important;
-}
-/*.navigation li.active:hover{
-}*/
-.navigation .noborder{
-	border: none !important;
-	padding-left: 27px;
-}
-.navigation li.dark-menu.noborder:hover,.navigation li.light-menu.noborder:hover{
-	border-left: none !important;
-	padding-left: 27px;
->>>>>>> Stashed changes
 }
 
 .navigation li.dark-menu.noborder:hover,
@@ -237,11 +190,7 @@ video {
 }
 
 /*Knap til at vise video*/
-<<<<<<< Updated upstream
 .fremvideo {
-=======
-#fremvideo{
->>>>>>> Stashed changes
     background-color: rgba(227, 227, 227, 1);
     color: rgba(92, 92, 92, 1);
     padding: 2%;
@@ -251,13 +200,6 @@ video {
     margin-left: auto;
     margin-right: auto;
 }
-<<<<<<< Updated upstream
-
-=======
-#fremvideo:hover{
-    background-color: blue;
-}
->>>>>>> Stashed changes
 /*Header logo hvid*/
 header {
     background-color: black;
