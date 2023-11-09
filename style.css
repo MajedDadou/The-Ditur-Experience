@@ -5,9 +5,7 @@ html {
     font-family: Arial, sans-serif;
     /* height: 100%; */
     overflow-x: hidden;
-    background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(83,83,83,1) 50%, rgba(0,0,0,1) 100%);
-}
+    }
 
 .parallax {
     height: 100vh;
@@ -15,7 +13,8 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(83,83,83,1) 50%, rgba(
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    /* background-color: black; */
+    background-color: black;
+    
 
 }
 
@@ -27,6 +26,8 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(83,83,83,1) 50%, rgba(
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: black;
+
 
 
 }
@@ -42,7 +43,9 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(83,83,83,1) 50%, rgba(
 
 
 }
-
+.content{
+    
+}
 
 .navigation li{
 
@@ -227,7 +230,7 @@ header {
 
 /*Tidslinje Dissing Watches*/
 .tidslinje{
-    background-color: black;
+    background-color: black ;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 10) 50%, transparent);
     background-size: cover;
     background-position: center;
