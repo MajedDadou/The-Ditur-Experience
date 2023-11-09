@@ -1,0 +1,49 @@
+body,
+html {
+    margin: auto;
+    padding: auto;
+    font-family: Arial, sans-serif;
+    /* height: 100%; */
+    overflow-x: hidden;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#section1 {
+    background-image: url('images/datewhite.png');
+}
+
+#section2 {
+    background-image: url('images/dissingdivergmt.png');
+}
+
+#section3 {
+    background-image: url('images/masterwhitebrownleather.png');
+}
+
+#section4 {
+    background-image: url('images/montaro.png');
+}
+
+#section5 {
+    background-image: url('images/mk10white.png');
+}
+
+#section6 {
+    background-image: url('images/Dissing-chrono-all-black.png');
+}
+
+#section7 {
+    background-image: url('images/dissing\ momento.png');
+}
+#section8 {
+    background-image: url('images/dissing\ ocean.png');
+}
+
+
