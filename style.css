@@ -173,6 +173,7 @@ p{
 
 /*Billeder og tekst i midten*/
 .midt{
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     padding-top: 5%;
