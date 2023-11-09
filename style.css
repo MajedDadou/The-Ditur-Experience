@@ -195,7 +195,7 @@ video {
 }
 
 /*Knap til at vise video*/
-.fremvideo {
+#fremvideo {
     background-color: rgba(227, 227, 227, 1);
     color: rgba(92, 92, 92, 1);
     padding: 2%;

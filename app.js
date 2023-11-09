@@ -20,3 +20,18 @@ document.addEventListener('DOMContentLoaded', function () {
     var logo = document.getElementById('logostart');
     logo.classList.add('logotransform');
 });
+
+//Knap for at vise video
+    // Knap til video
+    document.getElementById('fremvideo').addEventListener('click', function() {
+        var video = document.getElementById('videoPlayer');
+        
+        video.style.visibility = 'visible';  // Gør videoen synlig
+        video.play();  // Starter afspilning af videoen
+        video.setAttribute('controls', true); // Viser kontrolknapper (play, pause, osv.)
+        this.style.display = 'none';  // Skjuler knappen
+
+        // Flytter visningen til videoen
+        video.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
