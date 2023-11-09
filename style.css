@@ -60,19 +60,34 @@ html {
 
 /*Tekst*/
 p{
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     padding-left: 10%;
     padding-right: 10%;
+    font-family: Inter;
+    line-height: 200%;
 }
 /*Billeder og tekst i midten*/
 .midt{
     margin-left: auto;
     margin-right: auto;
-    padding-top: 3%;
+    padding-top: 5%;
     display: flex;
     justify-content: center;
     text-align: center;
+    padding-bottom: 3%;
+}
+
+/*Video*/
+video{
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.videosection{
+    background-color: black;
 }
 /*Header logo hvid*/
 header{
@@ -80,11 +95,12 @@ header{
     display: flex;
     justify-content: center;
     overflow: hidden;
+    height: 100vh;
 }
 #logostart{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 17%;
+    margin-top: 20%;
     margin-bottom: 20%;
     transition: transform 2s ease-in-out;
 }
@@ -99,6 +115,7 @@ header{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    height: 100vh;
 }
 /*Intro*/
 
