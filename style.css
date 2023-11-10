@@ -141,15 +141,15 @@ h2 {
 }
 h3{
     font-family: Inter;
-    color: black;
+    color: white;
     font-size: 30px;
     line-height: 120%;
     text-align: left;
 }
 h4{
     font-family: Inter;
-    color: black;
-    font-size: 10%;
+    color: white;
+    font-size: 15px;
     text-align: left;
 }
 p {
@@ -268,7 +268,7 @@ header {
 /*Footer*/
 /*Trust pilot section index*/
 #trust{
-    background-color: rgba(241, 237, 218, 1);
+    background-color: rgba(92, 92, 92, 1);
     display: flex;
     padding: 3%;
     justify-content: space-between;
@@ -279,8 +279,4 @@ header {
 }
 .trusttekst{
     margin: 2%;
-}
-.trusttekst h4{
-    padding-top: 2%;
-    font-size: small;
 }
