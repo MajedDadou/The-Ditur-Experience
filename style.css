@@ -132,7 +132,6 @@ h1 {
     font-size: 80px;
     text-transform: uppercase;
 }
-
 h2 {
     font-family: Yeseva One;
     color: white;
@@ -140,7 +139,19 @@ h2 {
     line-height: 150%;
     text-align: center;
 }
-
+h3{
+    font-family: Inter;
+    color: black;
+    font-size: 30px;
+    line-height: 120%;
+    text-align: left;
+}
+h4{
+    font-family: Inter;
+    color: black;
+    font-size: 10%;
+    text-align: left;
+}
 p {
     font-size: 25px;
     color: white;
@@ -189,7 +200,6 @@ video {
     display: flex;
     justify-content: center;
 }
-
 .videosection {
     background-color: black;
 }
@@ -223,7 +233,6 @@ header {
     overflow: hidden;
     height: 100vh;
 }
-
 #logostart {
     margin-left: auto;
     margin-right: auto;
@@ -232,7 +241,6 @@ header {
     transition: transform 2s ease-in-out;
 
 }
-
 .logotransform {
     transform: scale(1.5);
 }
@@ -255,4 +263,24 @@ header {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*Footer*/
+/*Trust pilot section index*/
+#trust{
+    background-color: rgba(241, 237, 218, 1);
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+}
+#trustimg{
+    display:block;
+    text-align: left;
+}
+.trusttekst{
+    margin: 2%;
+}
+.trusttekst h4{
+    padding-top: 2%;
+    font-size: small;
 }
