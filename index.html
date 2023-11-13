@@ -59,86 +59,93 @@
         </nav>
 
 
-        <section class="slide" id="section1" data-slide="2">
-            <div class="year">
-                <div class="model-name">DATE</div>
-                <div class="describtion">
-                    Dissing Date er kendetegnet ved sin fiflet urkrans og datovisning i urskiven. <br>Det er et klassisk
-                    herreur
-                    produceret i kvalitetsmaterialer.
+
+
+
+
+        <div id="menu-container">
+            <div id="menu" class="closed">
+                <div class="close-button" onclick="toggleMenu()">
+                    &times; <!-- &times; er HTML-entity for et kryds (×) -->
                 </div>
-                <div id="menu-container">
-                    <div id="menu" class="closed">
-                        <div class="close-button" onclick="toggleMenu()">
-                            &times; <!-- &times; er HTML-entity for et kryds (×) -->
-                        </div>
-                        <div id="specifikationer">
-        
-                            <h1>Specifikationer</h1>
-                    
-                            <h2>Urværk</h2>
-                    
-                            <div class="specifikation1">
-                                <h4>Type ur</h4>
-                                <p>Analog</p>
-                            </div>
-                            <div class="specifikation2">
-                                <h4>Urværk</h4>
-                                <p>Kvarts</p>
-                            </div>
-                            <div class="specifikation1">
-                                <h4>Kaliber</h4>
-                                <p>Miyota 2315</p>
-                            </div>
-                            <h2>Design</h2>
-                            <div class="specifikation2">
-                                <h4>Urkasse Materiale</h4>
-                                <p>316L Kirurgisk Stål</p>
-                            </div>
-                    
-                            <h2>Størrelse</h2>
-                            <div class="specifikation1">
-                                <h4>Diameter</h4>
-                                <p>41 mm.</p>
-                            </div>
-                            <div class="specifikation2">
-                                <h4>Tykkelse</h4>
-                                <p>10 mm.</p>
-                            </div>
-                            <div class="specifikation1">
-                                <h4>Rembredde</h4>
-                                <p>22 mm.</p>
-                            </div>
-                            <div class="specifikation2">
-                                <h4>Vægt</h4>
-                                <p>150 g.</p>
-                            </div>
-                            <h2>Egenskaber</h2>
-                            <div class="specifikation2">
-                                <h4>Vandbeskyttelse</h4>
-                                <p>10 ATM / 100 m.</p>
-                            </div>
-                            <div class="specifikation2">
-                                <h4>Glas</h4>
-                                <p>Safirglas</p>
-                            </div>
-                            <div class="specifikation1">
-                                <h4>Funktioner</h4>
-                                <p>Datovisning</p>
-                            </div>
-                            <div id="knap">
-                                <button class="custom-button">Udforsk ur-serien her</button>
-                            </div>
-                        </div>
+                <div id="specifikationer">
+
+                    <h1>Specifikationer</h1>
+
+                    <h2>Urværk</h2>
+
+                    <div class="specifikation1">
+                        <h4>Type ur</h4>
+                        <p>Analog</p>
                     </div>
-                    <div id="toggle-button" onclick="toggleMenu()">
+                    <div class="specifikation2">
+                        <h4>Urværk</h4>
+                        <p>Kvarts</p>
                     </div>
-                    <div class="overlay" id="overlay"></div>
+                    <div class="specifikation1">
+                        <h4>Kaliber</h4>
+                        <p>Miyota 2315</p>
+                    </div>
+                    <h2>Design</h2>
+                    <div class="specifikation2">
+                        <h4>Urkasse Materiale</h4>
+                        <p>316L Kirurgisk Stål</p>
+                    </div>
+
+                    <h2>Størrelse</h2>
+                    <div class="specifikation1">
+                        <h4>Diameter</h4>
+                        <p>41 mm.</p>
+                    </div>
+                    <div class="specifikation2">
+                        <h4>Tykkelse</h4>
+                        <p>10 mm.</p>
+                    </div>
+                    <div class="specifikation1">
+                        <h4>Rembredde</h4>
+                        <p>22 mm.</p>
+                    </div>
+                    <div class="specifikation2">
+                        <h4>Vægt</h4>
+                        <p>150 g.</p>
+                    </div>
+                    <h2>Egenskaber</h2>
+                    <div class="specifikation2">
+                        <h4>Vandbeskyttelse</h4>
+                        <p>10 ATM / 100 m.</p>
+                    </div>
+                    <div class="specifikation2">
+                        <h4>Glas</h4>
+                        <p>Safirglas</p>
+                    </div>
+                    <div class="specifikation1">
+                        <h4>Funktioner</h4>
+                        <p>Datovisning</p>
+                    </div>
+                    <div id="knap">
+                        <button class="custom-button">Udforsk ur-serien her</button>
+                    </div>
                 </div>
             </div>
+            <div id="toggle-button" onclick="toggleMenu()">
+                <section class="slide" id="section1" data-slide="2">
+                    <div class="year">
+                        <div class="model-name">DATE</div>
+                        <div class="describtion">
+                            Dissing Date er kendetegnet ved sin fiflet urkrans og datovisning i urskiven. <br>Det er et klassisk
+                            herreur
+                            produceret i kvalitetsmaterialer.
+                        </div>
+        
+                    </div>
+        
+                </section>
+            </div>
+            <div class="overlay" id="overlay"></div>
+        </div>
+        <a class="button" data-slide="3" title=""></a>
 
-            <a class="button" data-slide="3" title=""></a>
-        </section>
+
 
         <section class="slide" id="section2" data-slide="2">
             <div class="year">
@@ -222,7 +229,8 @@
             <div class="year">
                 <div class="model-name">OCEAN</div>
                 <div class="describtion">
-                    Dissing Ocean er en dykkerurserie i højeste kvalitet,<br> der er produceret i samarbejde med ReSea, der
+                    Dissing Ocean er en dykkerurserie i højeste kvalitet,<br> der er produceret i samarbejde med ReSea,
+                    der
                     for hvert ur solgt fjerner 10 plastikflasker fra hav og flod.
                 </div>
             </div>
