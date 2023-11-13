@@ -102,7 +102,7 @@ li.noborder.light-menu {
 
 /*Billeder*/
 #section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8{
-    background-size: 600px;
+    background-size: 40em;
     background-position: 50% 80%;
 }
 #section1 {
