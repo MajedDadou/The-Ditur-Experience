@@ -14,32 +14,41 @@
 // });
 
 //Logo transition
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     var logo = document.getElementById('logostart');
     logo.classList.add('logotransform');
 });
 
-/*Burgermenu*/
+//Burgermenu
 function toggleMenu() {
     var menu = document.getElementById("menu");
     var toggleButton = document.getElementById("toggle-button");
     var overlay = document.getElementById("overlay");
+    var body = document.body;
 
     if (menu.classList.contains("closed")) {
         menu.style.width = "500px";
         menu.classList.remove("closed");
         overlay.style.display = "block";
+        //body.style.overflow = "hidden"; // Forhindrer scrollning
     } else {
         menu.style.width = "0";
         menu.classList.add("closed");
         overlay.style.display = "none";
+        //body.style.overflow = "auto"; // Tillader scrollning
     }
 }
+//Knap til kollektion
+document.getElementById("knap").addEventListener("click", function() {
+    var button = document.querySelector("#knap button");
+    var globalHref = button.getAttribute("data-global-href");
+    
+    // Kontroller, om data-global-href eksisterer, før du forsøger at omdirigere
+    if (globalHref) {
+        window.location.href = globalHref;
+    }
+});
+
 
 document.addEventListener('scroll', function () {
     var nav = document.getElementById('upper-nav');

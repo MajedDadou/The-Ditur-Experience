@@ -4,9 +4,7 @@ html {
     padding: auto;
     font-family: Arial, sans-serif;
     /* height: 100%; */
-    overflow-x: hidden;
-
-
+    overflow-x:hidden;
 }
 
 .parallax {
@@ -16,8 +14,6 @@ html {
     background-repeat: no-repeat;
     background-size: contain;
     background-color: black; */
-
-
 }
 
 .slide {
@@ -146,14 +142,20 @@ li.noborder.light-menu {
     background-image: url('images/dissing\ ocean.png');
 }
 
-/*Tekst*/
+/*Tekst Overskrift*/
 h1 {
     font-family: poller one;
     color: white;
     font-size: 80px;
     text-transform: uppercase;
 }
-
+/*h1 til specifikationer*/
+#specifikationer h1{
+    font-size: 35px;
+    margin-left: 5%;
+    line-height: 170%;
+}
+/*Tekst Underoverskrifter*/
 h2 {
     font-family: Yeseva One;
     color: white;
@@ -161,7 +163,15 @@ h2 {
     line-height: 150%;
     text-align: center;
 }
-
+/*h2 til specifikationer*/
+#specifikationer h2{
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 5%;
+    line-height: 60%;
+}
+/*Tekst Makerer underemner*/
 h3 {
     font-family: Inter;
     color: white;
@@ -169,14 +179,23 @@ h3 {
     line-height: 120%;
     text-align: left;
 }
-
+/*h3 til specifikationer*/
+#specifikationer h3{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 5%;
+    line-height: 0%;
+    text-transform: capitalize;
+}
+/*Tekst til større tekst sections*/
 h4 {
     font-family: Inter;
     color: white;
     font-size: 15px;
+    margin-left: 5%;
     text-align: left;
 }
-
+/*Sætninger + beskrivelser*/
 p {
     font-size: 25px;
     color: white;
@@ -185,6 +204,15 @@ p {
     font-family: Inter;
     line-height: 220%;
     padding-top: 2%;
+}
+/*p til specifikationer*/
+#specifikationer p{
+    font-size: 15px;
+    text-align: right;
+    margin-right: 5%;
+    line-height: 0%;
+    padding:0%;
+    font-weight: 100;
 }
 
 /*Tekst citater*/
@@ -314,60 +342,24 @@ body {
 }
 
 /*CSS for sepecifikationer*/
-/*#specifikationer {
-    width: 40%;
-    background-color: grey;
-  }*/
-  
-  
-  #specifikationer h2,
-  h1,
-  h4 {
-  
-    padding-left: 20px;
-  }
-  
-  #specifikationer p {
-  
-    padding-right: 20px;
-  }
-  
-  #specifikationer h2 {
-  
-    margin-top: 10px;
-    margin-bottom: 10px;
-  
-  }
-  
-  .specifikation1 {
+.info{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: solid 0,5px;
+}
+.info:nth-child(odd){
     background-color: #5C5C5C;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    border-style: solid;
-    border-width: 0.5px;
-    justify-content: space-between;
-    padding-top: 10px;
-  
-  }
-  
-  .specifikation2 {
+}
+.info:nth-child(even){
     background-color: #A1A1A1;
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    border-style: solid;
-    border-width: 0.5px;
-    justify-content: space-between;
-    padding-top: 10px;
-  
-  }
+}
   
   #knap{
     display: flex;
     align-items: center;
     justify-content: center;
-  
   }
   
   .custom-button {
