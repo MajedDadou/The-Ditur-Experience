@@ -83,7 +83,7 @@ html {
 }
 
 li.noborder.light-menu {
-    display: none ;
+    /* display: none ; */
     border-bottom: 0 ;
 }
 
