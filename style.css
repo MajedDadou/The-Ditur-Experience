@@ -9,27 +9,43 @@ html {
 }
 
 .parallax {
-    height: 100vh;
+    /* height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: black;
+    background-color: black; */
 
 
 }
 
 .slide {
 
-    height: 100vh;
+    height: 130vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     background-color: black;
+}
+
+.model-name {
+    color: rgb(255, 255, 255);
+    font-family: poller one;
+    font-size: 4em;
+    text-align: center;
 
 }
 
+.describtion {
+    color: aliceblue;
+    font-family: inter;
+    text-align: center;
+font-size: 1.2em;
+}
+
+
+.line {}
 
 
 .navigation {
@@ -80,11 +96,15 @@ html {
 }
 
 li.noborder.light-menu {
-    display: none ;
-    border-bottom: 0 ;
+    display: none;
+    border-bottom: 0;
 }
 
 /*Billeder*/
+#section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8{
+    background-size: 600px;
+    background-position: 50% 80%;
+}
 #section1 {
     background-image: url('images/datewhite.png');
 
