@@ -30,9 +30,7 @@ html {
 
 }
 
-.upper-nav {
-    
-}
+.upper-nav {}
 
 
 .navigation {
@@ -48,7 +46,7 @@ html {
 
 .navigation li {
 
-    color: #A1A1A1 ;
+    color: #A1A1A1;
     display: block;
     padding: 0 10px;
     font-family: poller one;
@@ -63,27 +61,27 @@ html {
 
 /*Hover*/
 .navigation li.light-menu {
-    border-bottom: 2px solid rgba(255, 255, 255, 0.192) ;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.192);
 }
 
 .navigation li.light-menu:hover {
-    border-bottom: 2px solid rgb(255, 255, 255) ;
+    border-bottom: 2px solid rgb(255, 255, 255);
 
 }
 
 .navigation .noborder {
-    border: none ;
+    border: none;
     padding-left: 27px;
 }
 
 .navigation li.dark-menu.noborder:hover,
 .navigation li.light-menu.noborder:hover {
-    border-left: none ;
+    border-left: none;
     padding-left: 27px;
 }
 
 li.noborder.light-menu {
-    /* display: none ; */
+    display: none ;
     border-bottom: 0 ;
 }
 
@@ -329,4 +327,48 @@ header {
 
 .trusttekst {
     margin: 2%;
+}
+
+/* footer  */
+.footeraddon {
+    background: rgb(0, 0, 0);
+    padding: 30px 0px;
+    text-align: center;
+
+}
+
+.footeraddon .række {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: white;
+}
+
+.footeraddon .række a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.footeraddon .række a:hover {
+    color: rgb(77, 67, 67);
+}
+
+.footeraddon .række ul {
+    width: 100%;
+}
+
+.footeraddon .række ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footeraddon .række a i {
+    font-size: 40px;
+    margin: 0% 1%;
+}
+
+#footerh4 {
+    color: #f9f9f9;
+    text-align: center;
 }
