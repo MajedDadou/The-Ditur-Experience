@@ -203,6 +203,8 @@ video {
 
 .videosection {
     background-color: black;
+    display: flex;
+    justify-content: center;
 }
 
 #videosectionscroll {
@@ -246,8 +248,7 @@ a {
 a:hover {
     background-color: #ddd;
     color: black;
-}*/
-/*
+
 
 /*Knap til at vise video*/
 #fremvideo {
