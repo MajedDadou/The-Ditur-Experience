@@ -27,17 +27,19 @@ document.addEventListener('DOMContentLoaded', function () {
 /*Burgermenu*/
 function toggleMenu() {
     var menu = document.getElementById("menu");
-    if (menu.style.display === "block") {
-        menu.style.display = "none";
+    var toggleButton = document.getElementById("toggle-button");
+    var overlay = document.getElementById("overlay");
+
+    if (menu.classList.contains("closed")) {
+        menu.style.width = "500px";
+        menu.classList.remove("closed");
+        overlay.style.display = "block";
     } else {
-        menu.style.display = "block";
+        menu.style.width = "0";
+        menu.classList.add("closed");
+        overlay.style.display = "none";
     }
 }
-
-
-
-
-
 
 document.addEventListener('scroll', function () {
     var nav = document.getElementById('upper-nav');
@@ -60,6 +62,8 @@ document.addEventListener('scroll', function () {
 
     nav.style.display = 'none';
 });
+
+
 
 
 

@@ -6,6 +6,7 @@ html {
     /* height: 100%; */
     overflow-x: hidden;
 
+
 }
 
 .parallax {
@@ -241,43 +242,152 @@ video {
     justify-content: center;
 }
 
-/*Burgermenu*/
-/*.navbar {
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+#menu-container {
+    position: relative;
+}
+
+#menu {
+    width: 0;
+    height: 100%;
     background-color: #333;
-    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 2;
 }
 
-.burger-menu {
-    display: none;
+#menu .close-button {
     cursor: pointer;
-    padding: 15px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
     color: white;
 }
 
-.bar {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 5px 0;
+#menu ul {
+    list-style-type: none;
+    padding: 20px;
 }
 
-
-
-li {
-    float: left;
+#menu li {
+    margin-bottom: 15px;
 }
 
-a {
-    display: block;
+#menu a {
     color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    font-size: 18px;
 }
 
-a:hover {
-    background-color: #ddd;
-    color: black;
+#toggle-button {
+    cursor: pointer;
+    transition: transform 0.5s;
+    background-color: transparent;
+    border: solid 2px red;
+    height: 100vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+/*CSS for sepecifikationer*/
+/*#specifikationer {
+    width: 40%;
+    background-color: grey;
+  }*/
+  
+  
+  #specifikationer h2,
+  h1,
+  h4 {
+  
+    padding-left: 20px;
+  }
+  
+  #specifikationer p {
+  
+    padding-right: 20px;
+  }
+  
+  #specifikationer h2 {
+  
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .specifikation1 {
+    background-color: #5C5C5C;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 0.5px;
+    justify-content: space-between;
+    padding-top: 10px;
+  
+  }
+  
+  .specifikation2 {
+    background-color: #A1A1A1;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 0.5px;
+    justify-content: space-between;
+    padding-top: 10px;
+  
+  }
+  
+  #knap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .custom-button {
+    height: 45px;
+    width: 300px;
+    background-color: white;
+    color: #888;
+    /* Lysegrå skrift */
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin: 25px;
+  }
+
+/*knap til specifikationer
+.info{
+    background-color: transparent;
+    border: solid 2px red;
+    height: 100%;
+    width: 100%;
+}*/
 
 
 /*Knap til at vise video*/
