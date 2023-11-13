@@ -209,6 +209,12 @@ video {
     background-color: black;
 }
 
+#produktsection {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
 /*Burgermenu*/
 /*.navbar {
     background-color: #333;
