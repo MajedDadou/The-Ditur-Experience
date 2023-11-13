@@ -47,6 +47,9 @@ font-size: 1.2em;
 
 .line {}
 
+#upper-nav {
+    /* your existing styles */
+}
 
 .navigation {
     /* display: none; */
@@ -57,6 +60,12 @@ font-size: 1.2em;
 
 
 
+}
+
+.navigation li.bolder {
+    font-weight: bold;
+    color: aqua;
+    /* Add any additional styling for the "bolder" state */
 }
 
 .navigation li {
