@@ -30,3 +30,14 @@ function toggleMenu() {
 }
 
 
+window.addEventListener('scroll', function () {
+    var scrollPosition = window.scrollY;
+    var upperNav = document.getElementById('upperNav');
+
+    // Adjust the scroll position value based on when you want the upperNav to be visible
+    if (scrollPosition >= 500) {
+        upperNav.style.display = 'block'; // Make the upperNav visible
+    } else {
+        upperNav.style.display = 'none'; // Hide the upperNav
+    }
+});
