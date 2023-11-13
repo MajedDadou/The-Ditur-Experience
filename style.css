@@ -182,6 +182,8 @@ video {
 }
 .videosection {
     background-color: black;
+    display: flex;
+    justify-content: center;
 }
 #videosectionscroll{
     background-color: black;
@@ -229,7 +231,21 @@ a {
 a:hover {
     background-color: #ddd;
     color: black;
-}*//*
+}*/
+/*            <!--<div class="navbar">
+            <div class="burger-menu" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            </div>
+            -->*/
 
 /*Knap til at vise video*/
 #fremvideo {
