@@ -61,7 +61,7 @@ document.addEventListener('scroll', function () {
         if (section) {
             var rect = section.getBoundingClientRect();
 
-            if (rect.top < window.innerHeight  && rect.bottom >= window.innerHeight / 1) {
+            if (rect.top < window.innerHeight /1 && rect.bottom > window.innerHeight / 1) {
                 // Section is in the viewport
                 nav.style.display = 'block';
                 return; // Exit the loop if a visible section is found
@@ -71,7 +71,6 @@ document.addEventListener('scroll', function () {
 
     nav.style.display = 'none';
 });
-
 
 
 
