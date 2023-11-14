@@ -150,7 +150,7 @@ h1 {
     text-transform: uppercase;
 }
 /*h1 til specifikationer*/
-#specifikationer h1{
+.specifikationer h1{
     font-size: 35px;
     margin-left: 5%;
     line-height: 170%;
@@ -164,7 +164,7 @@ h2 {
     text-align: center;
 }
 /*h2 til specifikationer*/
-#specifikationer h2{
+.specifikationer h2{
     font-size: 30px;
     text-align: left;
     text-transform: uppercase;
@@ -180,7 +180,7 @@ h3 {
     text-align: left;
 }
 /*h3 til specifikationer*/
-#specifikationer h3{
+.specifikationer h3{
     font-size: 15px;
     text-align: left;
     margin-left: 5%;
@@ -206,7 +206,7 @@ p {
     padding-top: 2%;
 }
 /*p til specifikationer*/
-#specifikationer p{
+.specifikationer p{
     font-size: 15px;
     text-align: right;
     margin-right: 5%;
