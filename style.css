@@ -64,7 +64,7 @@ html {
 .model-name {
     color: rgb(255, 255, 255);
     font-family: poller one;
-    font-size: 4em;
+    font-size: 5em;
     text-align: center;
 
 }
@@ -366,7 +366,10 @@ body {
     z-index: 10;
 }
 
-
+.menu-container{
+    height: 100vh;
+    width: 100vw;
+}
 .menu-container .close-button {
     cursor: pointer;
     position: absolute;
@@ -383,12 +386,6 @@ body {
 
 .menu-container li {
     margin-bottom: 15px;
-}
-
-.menu-container a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
 }
 
 #toggle-button {
@@ -439,10 +436,15 @@ body {
     background-color: #A1A1A1;
 }
 
+/*Knap under specifikationer - til ditur*/
 #knap {
     display: flex;
-    align-items: center;
     justify-content: center;
+}
+#knap a{
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
 }
 
 .custom-button {
