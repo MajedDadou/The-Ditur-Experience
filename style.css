@@ -271,11 +271,6 @@ p {
 }
 
 
-.specifikationer {
-    height: 100%;
-}
-
-
 
 
 
@@ -341,10 +336,6 @@ body {
 }
 
 
-.menu-container {
-
-    position: relative;
-}
 
 #menu,
 #menu1,
@@ -356,7 +347,7 @@ body {
 #menu7,
 #menu8 {
     width: 0;
-    /* height: 100vh; */
+    height: 100%;
     background-color: #333;
     position: fixed;
     top: 0;
@@ -367,8 +358,16 @@ body {
 }
 
 .menu-container{
-    height: 100vh;
+    position: relative;
+    /* height: 100%; */
     width: 100vw;
+}
+
+.specifikationer{
+    /* height: 100%; */
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
 }
 .menu-container .close-button {
     cursor: pointer;
@@ -421,7 +420,8 @@ body {
 
 /*CSS for sepecifikationer*/
 .info {
-    height: 4.85ch;
+    padding-top: 0.6em;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -438,6 +438,7 @@ body {
 
 /*Knap under specifikationer - til ditur*/
 #knap {
+    margin-top: 1em;
     display: flex;
     justify-content: center;
 }
