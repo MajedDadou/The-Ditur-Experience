@@ -533,30 +533,10 @@ header {
 }
 
 /*Footer*/
-/*Trust pilot section index*/
-#trust {
-    background-color: rgba(92, 92, 92, 1);
-    display: flex;
-    padding: 3%;
-    justify-content: space-between;
-
-}
-
-#trustimg {
-    display: block;
-    text-align: left;
-}
-
-.trusttekst {
-    margin: 2%;
-}
-
-/* footer  */
 .footeraddon {
     background: rgb(0, 0, 0);
     padding: 30px 0px;
     text-align: center;
-
 }
 
 .footeraddon .række {
