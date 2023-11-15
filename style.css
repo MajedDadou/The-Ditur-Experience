@@ -4,7 +4,7 @@ html {
     padding: auto;
     font-family: Arial, sans-serif;
     /* height: 100%; */
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 .parallax {
@@ -38,7 +38,7 @@ html {
     color: aliceblue;
     font-family: inter;
     text-align: center;
-font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 
@@ -52,7 +52,7 @@ font-size: 1.2em;
     top: 50%;
     margin-top: -315px;
     text-align: center;
-z-index: 2;
+    z-index: 2;
 
 
 }
@@ -105,10 +105,18 @@ li.noborder.light-menu {
 }
 
 /*Billeder*/
-#section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8{
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6,
+#section7,
+#section8 {
     background-size: 65vh;
     background-position: 50% 80%;
 }
+
 #section1 {
     background-image: url('images/datewhite.png');
 
@@ -149,12 +157,14 @@ h1 {
     font-size: 80px;
     text-transform: uppercase;
 }
+
 /*h1 til specifikationer*/
-.specifikationer h1{
+.specifikationer h1 {
     font-size: 35px;
     margin-left: 5%;
     line-height: 170%;
 }
+
 /*Tekst Underoverskrifter*/
 h2 {
     font-family: Yeseva One;
@@ -163,14 +173,16 @@ h2 {
     line-height: 150%;
     text-align: center;
 }
+
 /*h2 til specifikationer*/
-.specifikationer h2{
+.specifikationer h2 {
     font-size: 30px;
     text-align: left;
     text-transform: uppercase;
     margin-left: 5%;
     line-height: 60%;
 }
+
 /*Tekst Makerer underemner*/
 h3 {
     font-family: Inter;
@@ -179,14 +191,16 @@ h3 {
     line-height: 120%;
     text-align: left;
 }
+
 /*h3 til specifikationer*/
-.specifikationer h3{
+.specifikationer h3 {
     font-size: 15px;
     text-align: left;
     margin-left: 5%;
     line-height: 0%;
     text-transform: capitalize;
 }
+
 /*Tekst til større tekst sections*/
 h4 {
     font-family: Inter;
@@ -195,6 +209,7 @@ h4 {
     margin-left: 5%;
     text-align: left;
 }
+
 /*Sætninger + beskrivelser*/
 p {
     font-size: 25px;
@@ -205,13 +220,14 @@ p {
     line-height: 220%;
     padding-top: 2%;
 }
+
 /*p til specifikationer*/
-.specifikationer p{
+.specifikationer p {
     font-size: 15px;
     text-align: right;
     margin-right: 5%;
     line-height: 0%;
-    padding:0%;
+    padding: 0%;
     font-weight: 100;
 }
 
@@ -277,11 +293,19 @@ body {
 }
 
 
-#menu-container {
+.menu-container {
     position: relative;
 }
 
-#menu {
+#menu,
+#menu1,
+#menu2,
+#menu3,
+#menu4,
+#menu5,
+#menu6,
+#menu7,
+#menu8 {
     width: 0;
     height: 100%;
     background-color: #333;
@@ -293,7 +317,8 @@ body {
     z-index: 10;
 }
 
-#menu .close-button {
+
+.menu-container .close-button {
     cursor: pointer;
     position: absolute;
     top: 20px;
@@ -302,16 +327,16 @@ body {
     color: white;
 }
 
-#menu ul {
+.menu-container ul {
     list-style-type: none;
     padding: 20px;
 }
 
-#menu li {
+.menu-container li {
     margin-bottom: 15px;
 }
 
-#menu a {
+.menu-container a {
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -330,7 +355,14 @@ body {
     /* margin-right: auto; */
 }
 
-.overlay {
+#overlay1,
+#overlay2,
+#overlay3,
+#overlay4,
+#overlay5,
+#overlay6,
+#overlay7,
+#overlay8 {
     display: none;
     position: fixed;
     top: 0;
@@ -342,27 +374,29 @@ body {
 }
 
 /*CSS for sepecifikationer*/
-.info{
+.info {
     height: fit-content;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    border: solid 0,5px;
+    border: solid 0, 5px;
 }
-.info:nth-child(odd){
+
+.info:nth-child(odd) {
     background-color: #5C5C5C;
 }
-.info:nth-child(even){
+
+.info:nth-child(even) {
     background-color: #A1A1A1;
 }
-  
-  #knap{
+
+#knap {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .custom-button {
+}
+
+.custom-button {
     height: 45px;
     width: 300px;
     background-color: white;
@@ -371,7 +405,7 @@ body {
     border: 1px solid #ccc;
     font-size: 16px;
     margin: 25px;
-  }
+}
 
 /*knap til specifikationer
 .info{
