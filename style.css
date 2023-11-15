@@ -420,7 +420,7 @@ body {
 
 /*CSS for sepecifikationer*/
 .info {
-    padding-top: 0.6vh;
+    padding-top: 0.4vh;
     height: 100%;
     display: flex;
     justify-content: space-between;
