@@ -341,7 +341,7 @@ video {
     height: 250px;
     cursor:pointer;
     background-color: red;
-}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -402,7 +402,7 @@ body {
     margin-bottom: 15px;
 }
 
-#toggle-button {
+.toggle-button {
     cursor: pointer;
     /* transition: transform 0.5s; */
     background-color: transparent;
