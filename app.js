@@ -44,7 +44,7 @@ document.addEventListener('scroll', function () {
         var section = document.getElementById(sectionId);
         if (section) {
             var rect = section.getBoundingClientRect();
-            if (rect.top <= window.innerHeight  && rect.bottom > window.innerHeight ) {
+            if (rect.top <= window.innerHeight && rect.bottom > window.innerHeight) {
                 // Section is fully in the viewport
                 visibleSection = section;
                 break; // Exit the loop if a visible section is found

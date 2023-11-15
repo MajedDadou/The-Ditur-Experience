@@ -329,20 +329,23 @@ video {
     justify-content: center;
     position: relative;
 }
+
 video::cue {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
 }
-#produktsection video{
-width: 90vw;
-height: 90vh;
+
+#produktsection video {
+    width: 90vw;
+    height: 90vh;
 }
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
