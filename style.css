@@ -29,7 +29,7 @@ html {
 .model-name {
     color: rgb(255, 255, 255);
     font-family: poller one;
-    font-size: 4em;
+    font-size: 5em;
     text-align: center;
 
 }
@@ -317,7 +317,10 @@ body {
     z-index: 10;
 }
 
-
+.menu-container{
+    height: 100vh;
+    width: 100vw;
+}
 .menu-container .close-button {
     cursor: pointer;
     position: absolute;
