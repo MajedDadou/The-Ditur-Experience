@@ -339,12 +339,6 @@ body {
     margin-bottom: 15px;
 }
 
-.menu-container a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
 #toggle-button {
     cursor: pointer;
     /* transition: transform 0.5s; */
@@ -393,10 +387,15 @@ body {
     background-color: #A1A1A1;
 }
 
+/*Knap under specifikationer - til ditur*/
 #knap {
     display: flex;
-    align-items: center;
     justify-content: center;
+}
+#knap a{
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
 }
 
 .custom-button {
