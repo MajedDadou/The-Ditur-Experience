@@ -313,6 +313,7 @@ video {
     justify-content: center;
 }
 
+/*Interview video*/
 .videosection {
     background-color: black;
     display: flex;
@@ -323,25 +324,23 @@ video {
     background-color: black;
 }
 
+/*Øverste video*/
 #produktsection {
     background-color: black;
     display: flex;
     justify-content: center;
     position: relative;
 }
-video::cue {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        cursor: pointer;
-}
+
 #produktsection video{
-width: 90vw;
-height: 90vh;
+    width: 90vw;
+    height: 90vh;
+}
+#playknap{
+    width: 266px;
+    height: 250px;
+    cursor:pointer;
+    background-color: red;
 }
 body {
     margin: 0;
