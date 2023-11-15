@@ -76,11 +76,6 @@ html {
     font-size: 1.2em;
 }
 
-
-.line {}
-
-
-
 .navigation {
     /* display: none; */
     position: fixed;
@@ -341,6 +336,7 @@ video {
     height: 250px;
     cursor:pointer;
     background-color: red;
+}
 
 body {
     margin: 0;
