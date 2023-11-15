@@ -421,7 +421,7 @@ body {
 
 /*CSS for sepecifikationer*/
 .info {
-    height: 2.7em;
+    height: 4.85ch;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
