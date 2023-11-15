@@ -243,7 +243,7 @@ h4 {
     font-family: Inter;
     color: white;
     font-size: 15px;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     text-align: left;
 }
 
@@ -357,19 +357,20 @@ body {
     z-index: 10;
 }
 
-.menu-container{
+.menu-container {
     position: relative;
     height: 100%;
     width: 100vw;
     overflow: hidden;
 }
 
-.specifikationer{
+.specifikationer {
     /* height: 100%; */
     overflow-y: hidden;
     overflow-x: hidden;
-    
+
 }
+
 .menu-container .close-button {
     cursor: pointer;
     position: absolute;
@@ -443,7 +444,8 @@ body {
     display: flex;
     justify-content: center;
 }
-#knap a{
+
+#knap a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -535,19 +537,25 @@ header {
 
 /*Footer*/
 .footeraddon {
+    display: flex;
     background: rgb(0, 0, 0);
     padding: 30px 0px;
-    text-align: center;
+    flex-direction: column;
+    /* text-align: center; */
 }
 
-.footeraddon .række {
+.række {
+    /* align-items: center; */
     width: 100%;
     margin: 1% 0%;
     padding: 0.6% 0%;
     color: white;
+    text-align: center;
+
 }
 
 .footeraddon .række a {
+
     text-decoration: none;
     color: white;
     transition: 0.5s;
@@ -558,7 +566,7 @@ header {
 }
 
 .footeraddon .række ul {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .footeraddon .række ul li {
@@ -572,6 +580,7 @@ header {
 }
 
 #footerh4 {
+    align-items: center;
     color: #f9f9f9;
     text-align: center;
 }
