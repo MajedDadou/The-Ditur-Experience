@@ -392,7 +392,7 @@ body {
     margin-bottom: 15px;
 }
 
-#toggle-button {
+.toggle-button {
     cursor: pointer;
     /* transition: transform 0.5s; */
     background-color: transparent;
