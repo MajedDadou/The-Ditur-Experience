@@ -296,7 +296,7 @@ p {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-bottom: 3%;
+    padding-bottom: 2%;
 }
 
 /*Runde billeder*/
@@ -327,6 +327,17 @@ video {
     background-color: black;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+video::cue {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
 }
 #produktsection video{
 width: 90vw;
