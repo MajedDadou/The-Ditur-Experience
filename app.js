@@ -228,7 +228,7 @@ document.addEventListener('scroll', function () {
                 nav.style.display = 'none';
             }
         }
-       
+
     }
 }
 
