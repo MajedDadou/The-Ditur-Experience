@@ -4,14 +4,7 @@
 //     document.getElementById('section2').style.backgroundPositionY = offset * 0.5 + 'px';
 // });
 
-// window.addEventListener('scroll', function () {
-//     let offset = window.scrollY;
-//     for (let i = 1; i <= 10; i++) {
-//         document.getElementById('section' + i).style.backgroundPositionY = offset * 0.0 + 'px';
-//         // document.getElementById('section2').style.backgroundPositionY = offset * 0.1 + 'px';
-//         // document.getElementById('section3').style.backgroundPositionY = offset * -0.1 + 'px';
-//     }
-// });
+
 
 //Logo transition
 document.addEventListener('DOMContentLoaded', function () {
@@ -162,7 +155,7 @@ function toggleMenu(menuId, overlayId) {
     var overlay = document.getElementById(overlayId);
 
     if (menu.classList.contains("closed")) {
-        menu.style.width = "500px";
+        menu.style.width = "28vw";
         menu.classList.remove("closed");
         overlay.style.display = "block";
     } else {
@@ -193,28 +186,50 @@ document.getElementById("knap").addEventListener("click", function () {
 });
 
 
+// document.addEventListener('scroll', function () {
+//     var nav = document.getElementById('navigation');
+
+//     // Check the visibility of each section
+//     for (var i = 1; i <= 8; i++) {
+//         var sectionId = 'section' + i;
+//         var section = document.getElementById(sectionId);
+
+//         if (section) {
+//             var rect = section.getBoundingClientRect();
+
+//             if (rect.top <= window.innerHeight / 1 && rect.bottom > window.innerHeight / 1) {
+//                 // Section is in the viewport
+//                 nav.style.display = 'block';
+
+//                 return; // Exit the loop if a visible section is found
+//             }
+//         }
+//     }
+
+//     // nav.style.display = 'none';
+// });
+
+
+
+
 document.addEventListener('scroll', function () {
     var nav = document.getElementById('upper-nav');
-
     // Check the visibility of each section
     for (var i = 1; i <= 8; i++) {
-        var sectionId = 'section' + i;
+        var sectionId = 'menu' + i;
         var section = document.getElementById(sectionId);
-
         if (section) {
             var rect = section.getBoundingClientRect();
-
-            if (rect.top < window.innerHeight / 1 && rect.bottom > window.innerHeight / 1) {
+            if (rect.top <= window.innerHeight / 1 && rect.bottom >= window.innerHeight / 1) {
                 // Section is in the viewport
                 nav.style.display = 'block';
-                return; // Exit the loop if a visible section is found
+            } else if (rect.bottom >= window.innerHeight) {
+                // Section is in the viewport
+                nav.style.display = 'none';
             }
         }
+       
     }
+}
 
-    nav.style.display = 'none';
-});
-
-
-
-
+);
