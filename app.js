@@ -186,50 +186,16 @@ document.getElementById("knap").addEventListener("click", function () {
 });
 
 
-// document.addEventListener('scroll', function () {
-//     var nav = document.getElementById('navigation');
-
-//     // Check the visibility of each section
-//     for (var i = 1; i <= 8; i++) {
-//         var sectionId = 'section' + i;
-//         var section = document.getElementById(sectionId);
-
-//         if (section) {
-//             var rect = section.getBoundingClientRect();
-
-//             if (rect.top <= window.innerHeight / 1 && rect.bottom > window.innerHeight / 1) {
-//                 // Section is in the viewport
-//                 nav.style.display = 'block';
-
-//                 return; // Exit the loop if a visible section is found
-//             }
-//         }
-//     }
-
-//     // nav.style.display = 'none';
-// });
 
 
 
 
-document.addEventListener('scroll', function () {
-    var nav = document.getElementById('upper-nav');
-    // Check the visibility of each section
-    for (var i = 1; i <= 8; i++) {
-        var sectionId = 'menu' + i;
-        var section = document.getElementById(sectionId);
-        if (section) {
-            var rect = section.getBoundingClientRect();
-            if (rect.top <= window.innerHeight / 1 && rect.bottom >= window.innerHeight / 1) {
-                // Section is in the viewport
-                nav.style.display = 'block';
-            } else if (rect.bottom >= window.innerHeight) {
-                // Section is in the viewport
-                nav.style.display = 'none';
-            }
-        }
 
-    }
-}
 
-);
+
+
+
+
+
+
+
