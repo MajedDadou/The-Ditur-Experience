@@ -155,7 +155,7 @@ function toggleMenu(menuId, overlayId) {
     var overlay = document.getElementById(overlayId);
 
     if (menu.classList.contains("closed")) {
-        menu.style.width = "25vw";
+        menu.style.width = "500px";
         menu.classList.remove("closed");
         overlay.style.display = "block";
     } else {
