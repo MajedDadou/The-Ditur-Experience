@@ -294,7 +294,6 @@ p {
 
 /*Billeder og tekst i midten*/
 .midt {
-    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -303,6 +302,7 @@ p {
     justify-content: center;
     text-align: center;
     padding-bottom: 2%;
+    margin-bottom: 0;
     
     
 }
