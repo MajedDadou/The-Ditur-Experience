@@ -44,14 +44,7 @@ html {
 
 
 
-.parallax {
-    /* height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: black; */
-}
+
 
 .slide {
 
@@ -80,7 +73,7 @@ html {
 }
 
 
-.line {}
+
 
 #upper-nav {
     display: none;
@@ -545,7 +538,7 @@ header {
     background-position: center;
     background-attachment: fixed;
     height: 100%;
-    padding-bottom: 5%;
+    padding-bottom: 15em;
 
 }
 
@@ -595,9 +588,6 @@ header {
     color: rgb(77, 67, 67);
 }
 
-.footeraddon .række ul {
-    /* width: 100%; */
-}
 
 .footeraddon .række ul li {
     display: inline-block;
