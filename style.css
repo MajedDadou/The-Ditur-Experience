@@ -5,6 +5,8 @@ html {
     font-family: Arial, sans-serif;
     /* height: 100%; */
     overflow-x: hidden;
+    scroll-behavior: smooth;
+
 }
 
 /* Scrollbar Track */
@@ -112,7 +114,9 @@ html {
     cursor: pointer;
     transition: all .2s ease-in-out;
 }
-
+.navigation a{
+    text-decoration: none;
+}
 /*Hover*/
 .navigation li.light-menu {
     border-bottom: 2px solid rgba(255, 255, 255, 0.192);
@@ -150,6 +154,8 @@ li.noborder.light-menu {
 #section8 {
     background-size: 65vh;
     background-position: 50% 80%;
+    
+
 }
 
 #section1 {
@@ -365,6 +371,7 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     z-index: 10;
+    
 }
 
 .menu-container {
@@ -372,6 +379,7 @@ body {
     height: 100%;
     width: 100vw;
     overflow: hidden;
+    
 }
 
 .specifikationer {
@@ -402,6 +410,7 @@ body {
 #toggle-button {
     cursor: pointer;
     background-color: transparent;
+    
 }
 
 #overlay1,

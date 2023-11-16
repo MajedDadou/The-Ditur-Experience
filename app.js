@@ -1,28 +1,28 @@
 
 //Logo transition
 document.addEventListener('DOMContentLoaded', function () {
-    var logo = document.getElementById('logostart');
-    logo.classList.add('logotransform');
+    var logo = document.getElementById('logostart'); //udgangspunktet
+    logo.classList.add('logotransform'); //transform på størrelsen
 });
 
 
-
+//Menu til specifikationer
 function toggleMenu(menuId, overlayId) {
     var menu = document.getElementById(menuId);
     var overlay = document.getElementById(overlayId);
 
-    if (menu.classList.contains("closed")) {
-        menu.style.width = "500px";
+    if (menu.classList.contains("closed")) { //Hvis menuen er lukket skal den åbnes via. følgende elementer:
+        menu.style.width = "500px"; //Størrelsen på menuen der kommer fra højre
         menu.classList.remove("closed");
-        overlay.style.display = "block";
-    } else {
-        menu.style.width = "0";
-        menu.classList.add("closed");
-        overlay.style.display = "none";
+        overlay.style.display = "block"; //Gør baggrunden sort
+    } else { //Hvis den er åben så:
+        menu.style.width = "0"; //Størrelse
+        menu.classList.add("closed"); //Luk menu
+        overlay.style.display = "none"; //Den sorte baggrunden fjerner sig
     }
 }
 
-
+//Ændre trykfunktionen på hver section m. urerne
 for (let i = 1; i <= 8; i++) {
     window['toggleMenu' + i] = function () {
         toggleMenu('menu' + i, 'overlay' + i);
@@ -68,10 +68,8 @@ document.addEventListener('scroll', function () {
 
     if (visibleSection) {
         nav.style.display = 'block';
-        nav.classList.add('bolder');
     } else {
         nav.style.display = 'none';
-        nav.classList.remove('bolder');
     }
 });
 
