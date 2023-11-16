@@ -68,8 +68,6 @@ document.addEventListener('scroll', function () {
 
     if (visibleSection) {
         nav.style.display = 'block';
-        nav.style.transition = 'ease-in 1s';
-
     } else {
         nav.style.display = 'none';
     }
