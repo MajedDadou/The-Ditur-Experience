@@ -255,7 +255,7 @@ h4 {
 
 /*Sætninger + beskrivelser*/
 p {
-    font-size: 25px;
+    font-size: 1.8vw;
     color: white;
     padding-left: 10%;
     padding-right: 10%;
@@ -303,6 +303,8 @@ p {
     justify-content: center;
     text-align: center;
     padding-bottom: 2%;
+    
+    
 }
 
 /*Runde billeder*/
@@ -532,7 +534,13 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 100vh;
+    height: 100%;
+
+}
+.tidslinje img{
+    width: 60vw;
+    height: 100%;
+    /* height: 90vh; */
 }
 
 /*Interview section*/
