@@ -76,8 +76,14 @@ html {
     font-size: 1.2em;
 }
 
+
+.line {}
+
+#upper-nav{
+    display: none;
+}
+
 .navigation {
-    /* display: none; */
     position: fixed;
     top: 50%;
     margin-top: -315px;
@@ -89,20 +95,19 @@ html {
 
 .navigation li.bolder {
     font-weight: bold;
-    color: aqua;
     /* Add any additional styling for the "bolder" state */
 }
 
 .navigation li {
 
-    color: #A1A1A1;
+    color: #5c5c5c;
     display: block;
     padding: 0 10px;
     font-family: poller one;
-    line-height: 67px;
+    line-height: 9.5vh;
     font-weight: 900;
     text-align: center;
-    width: 43px;
+    /* width: 43px; */
     padding-left: 28px;
     cursor: pointer;
     transition: all .2s ease-in-out;

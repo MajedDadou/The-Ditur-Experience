@@ -33,25 +33,39 @@ for (let i = 1; i <= 8; i++) {
 
 
 
-
-
 document.addEventListener('scroll', function () {
     var nav = document.getElementById('upper-nav');
     var visibleSection = null;
-    // Check the visibility of each section
+
     for (var i = 1; i <= 8; i++) {
         var sectionId = 'section' + i;
         var section = document.getElementById(sectionId);
+
         if (section) {
             var rect = section.getBoundingClientRect();
+
             if (rect.top <= window.innerHeight && rect.bottom > window.innerHeight) {
-                // Section is fully in the viewport
                 visibleSection = section;
+
+                // Reset the color of all watch elements
+                for (var j = 1; j <= 8; j++) {
+                    var allWatchElements = document.querySelectorAll('#watch' + j);
+                    allWatchElements.forEach(function (watchElement) {
+                        watchElement.style.color = ''; // Reset color to default
+                    });
+                }
+
+                // Set the color of current section's watch elements
+                var watchElements = document.querySelectorAll('#watch' + i);
+                watchElements.forEach(function (watchElement) {
+                    watchElement.style.color = 'white';
+                });
+
                 break; // Exit the loop if a visible section is found
             }
         }
     }
-    // Show or hide the navigation based on section visibility
+
     if (visibleSection) {
         nav.style.display = 'block';
         nav.classList.add('bolder');
