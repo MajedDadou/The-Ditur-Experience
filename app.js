@@ -44,7 +44,7 @@ document.addEventListener('scroll', function () {
         if (section) {
             var rect = section.getBoundingClientRect();
 
-            if (rect.top <= window.innerHeight && rect.bottom > window.innerHeight) {
+            if (rect.top < window.innerHeight  && rect.bottom > window.innerHeight ) {
                 visibleSection = section;
 
                 // Reset the color of all watch elements
@@ -68,6 +68,8 @@ document.addEventListener('scroll', function () {
 
     if (visibleSection) {
         nav.style.display = 'block';
+        nav.style.transition = 'ease-in 1s';
+
     } else {
         nav.style.display = 'none';
     }
