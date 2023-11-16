@@ -333,6 +333,7 @@ video {
 
 #videosectionscroll {
     background-color: black;
+    padding-top: 5%;
 
 
 }
@@ -544,6 +545,7 @@ header {
     background-position: center;
     background-attachment: fixed;
     height: 100%;
+    padding-bottom: 5%;
 
 }
 
