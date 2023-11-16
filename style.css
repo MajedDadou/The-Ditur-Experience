@@ -81,7 +81,7 @@ html {
 
 .line {}
 
-#upper-nav{
+#upper-nav {
     display: none;
 }
 
@@ -114,9 +114,11 @@ html {
     cursor: pointer;
     transition: all .2s ease-in-out;
 }
-.navigation a{
+
+.navigation a {
     text-decoration: none;
 }
+
 /*Hover*/
 .navigation li.light-menu {
     border-bottom: 2px solid rgba(255, 255, 255, 0.192);
@@ -154,7 +156,7 @@ li.noborder.light-menu {
 #section8 {
     background-size: 65vh;
     background-position: 50% 80%;
-    
+
 
 }
 
@@ -303,8 +305,8 @@ p {
     text-align: center;
     padding-bottom: 2%;
     margin-bottom: 0;
-    
-    
+
+
 }
 
 /*Runde billeder*/
@@ -330,7 +332,7 @@ video {
 
 #videosectionscroll {
     background-color: black;
-    
+
 
 }
 
@@ -342,7 +344,7 @@ video {
     position: relative;
 }
 
-#produktsection video{
+#produktsection video {
     width: 90vw;
     height: 90vh;
 }
@@ -373,7 +375,7 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     z-index: 10;
-    
+
 }
 
 .menu-container {
@@ -381,7 +383,7 @@ body {
     height: 100%;
     width: 100vw;
     overflow: hidden;
-    
+
 }
 
 .specifikationer {
@@ -412,7 +414,7 @@ body {
 #toggle-button {
     cursor: pointer;
     background-color: transparent;
-    
+
 }
 
 #overlay1,
@@ -541,7 +543,8 @@ header {
     height: 100%;
 
 }
-.tidslinje img{
+
+.tidslinje img {
     width: 60vw;
     height: 100%;
     /* height: 90vh; */
@@ -605,4 +608,27 @@ header {
     align-items: center;
     color: #f9f9f9;
     text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 3vw;
+    }
+
+    #section1,
+    #section2,
+    #section3,
+    #section4,
+    #section5,
+    #section6,
+    #section7,
+    #section8 {
+        background-size: 40vh;
+        background-position: 50% 60%;
+
+
+    }
 }
