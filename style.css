@@ -89,10 +89,7 @@ html {
 
 }
 
-.navigation li.bolder {
-    font-weight: bold;
-    /* Add any additional styling for the "bolder" state */
-}
+
 
 .navigation li {
 
@@ -103,10 +100,10 @@ html {
     line-height: 9.5vh;
     font-weight: 900;
     text-align: center;
-    /* width: 43px; */
     padding-left: 28px;
     cursor: pointer;
-    transition: all .2s ease-in-out;
+    font-size: 1em !important;
+
 }
 
 .navigation a {
@@ -115,7 +112,8 @@ html {
 
 /*Hover*/
 .navigation li.light-menu {
-    border-bottom: 2px solid #252525;
+    border-bottom: 0.1em solid #252525;
+
 }
 
 .navigation li.light-menu:hover {
@@ -123,21 +121,10 @@ html {
 
 }
 
-.navigation .noborder {
-    border: none;
-    padding-left: 27px;
-}
 
-.navigation li.dark-menu.noborder:hover,
-.navigation li.light-menu.noborder:hover {
-    border-left: none;
-    padding-left: 27px;
-}
 
-li.noborder.light-menu {
-    display: none;
-    border-bottom: 0;
-}
+
+
 
 /*Billeder*/
 #section1,
@@ -635,11 +622,18 @@ header {
         padding-top: 2em;
         font-size: 2em;
 
-    
+
     }
 
-    .tokoloner{
+    .tokoloner {
         display: block;
         text-align: center;
     }
+
+    .navigation li {
+        font-size: x-small !important;
+
+    }
+
+
 }

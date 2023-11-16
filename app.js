@@ -11,24 +11,39 @@ function toggleMenu(menuId, overlayId) {
     var menu = document.getElementById(menuId);
     var overlay = document.getElementById(overlayId);
 
-    if (menu.classList.contains("closed")) { //Hvis menuen er lukket skal den åbnes via. følgende elementer:
-        menu.style.width = "500px"; //Størrelsen på menuen der kommer fra højre
+    if (menu.classList.contains("closed")) {
+        if (window.innerWidth <= 600) {
+            menu.style.width = "70vw"; // Set width to 80vw for screens <= 600px
+        } else {
+            menu.style.width = "500px"; // Default width for larger screens
+        }
         menu.classList.remove("closed");
-        overlay.style.display = "block"; //Gør baggrunden sort
-    } else { //Hvis den er åben så:
-        menu.style.width = "0"; //Størrelse
-        menu.classList.add("closed"); //Luk menu
-        overlay.style.display = "none"; //Den sorte baggrunden fjerner sig
+        overlay.style.display = "block";
+    } else {
+        menu.style.width = "0";
+        menu.classList.add("closed");
+        overlay.style.display = "none";
     }
 }
 
-//Ændre trykfunktionen på hver section m. urerne
+// Adjust menu width on window resize
+window.addEventListener('resize', function() {
+    var menu = document.getElementById('menuId');
+    if (!menu.classList.contains("closed")) {
+        if (window.innerWidth <= 600) {
+            menu.style.width = "70vw"; // Set width to 80vw for screens <= 600px
+        } else {
+            menu.style.width = "500px"; // Default width for larger screens
+        }
+    }
+});
+
+// Change the function assigned to each section
 for (let i = 1; i <= 8; i++) {
     window['toggleMenu' + i] = function () {
         toggleMenu('menu' + i, 'overlay' + i);
     };
 }
-
 
 
 
