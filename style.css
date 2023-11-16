@@ -184,7 +184,7 @@ h1 {
 
 /*h1 til specifikationer*/
 .specifikationer h1 {
-    font-size: 35px;
+    font-size: 1.9em;
     margin-left: 5%;
     line-height: 170%;
 }
@@ -636,4 +636,8 @@ header {
     }
 
 
+    .specifikationer h1 {
+        font-size: 1.3em;
+    
+    }
 }
