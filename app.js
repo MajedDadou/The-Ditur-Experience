@@ -68,10 +68,8 @@ document.addEventListener('scroll', function () {
 
     if (visibleSection) {
         nav.style.display = 'block';
-        nav.classList.add('bolder');
     } else {
         nav.style.display = 'none';
-        nav.classList.remove('bolder');
     }
 });
 
