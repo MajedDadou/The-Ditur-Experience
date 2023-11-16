@@ -336,12 +336,6 @@ video {
     width: 90vw;
     height: 90vh;
 }
-#playknap{
-    width: 266px;
-    height: 250px;
-    cursor:pointer;
-    background-color: red;
-}
 
 body {
     margin: 0;
