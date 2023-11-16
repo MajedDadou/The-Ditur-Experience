@@ -612,7 +612,7 @@ header {
 
 
 
-
+/*Skæme der er mindre end 600px - til mobil*/
 @media only screen and (max-width: 600px) {
     p {
         font-size: 3vw;
@@ -630,5 +630,10 @@ header {
         background-position: 50% 60%;
 
 
+    }
+
+    .tokoloner{
+        display: block;
+        text-align: center;
     }
 }
