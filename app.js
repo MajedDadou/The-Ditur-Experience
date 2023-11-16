@@ -12,7 +12,7 @@ function toggleMenu(menuId, overlayId) {
     var overlay = document.getElementById(overlayId);
 
     if (menu.classList.contains("closed")) { //Hvis menuen er lukket skal den åbnes via. følgende elementer:
-        menu.style.width = "500px"; //Størrelsen på menuen der kommer fra højre
+        menu.style.width = "40%"; //Størrelsen på menuen der kommer fra højre
         menu.classList.remove("closed");
         overlay.style.display = "block"; //Gør baggrunden sort
     } else { //Hvis den er åben så:
