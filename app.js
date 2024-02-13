@@ -29,11 +29,14 @@ function toggleMenu(menuId, overlayId) {
 // Adjust menu width on window resize
 window.addEventListener('resize', function() {
     var menu = document.getElementById('menuId');
-    if (!menu.classList.contains("closed")) {
-        if (window.innerWidth <= 600) {
-            menu.style.width = "70vw"; // Set width to 80vw for screens <= 600px
-        } else {
-            menu.style.width = "500px"; // Default width for larger screens
+    
+    if (menu) { // Check if the 'menu' element exists
+        if (!menu.classList.contains("closed")) {
+            if (window.innerWidth <= 600) {
+                menu.style.width = "70vw"; // Set width to 80vw for screens <= 600px
+            } else {
+                menu.style.width = "500px"; // Default width for larger screens
+            }
         }
     }
 });
